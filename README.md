@@ -22,3 +22,17 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 - Redis
 - PostgreSQL
 - Skaffold
+
+## Projects
+
+### Simple web
+
+- Docker Port Forwarding
+
+- Building and Running a Docker Container
+  ![build logs](./simple-web/img-build.png)
+
+- Docker Port Mapping Syntax: `docker run -p 8080:8080`
+
+- Inspecting and Accessing a Running Container
+  ![build logs](./simple-web/img-shell.png)
