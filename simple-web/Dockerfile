@@ -1,6 +1,7 @@
 # base image
 
 FROM node:14-alpine
+WORKDIR /usr/app
 
 # dependencies
 
