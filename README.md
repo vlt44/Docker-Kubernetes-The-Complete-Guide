@@ -42,4 +42,5 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 
 ### Docker Compose with Multiple Local Containers
 
-![projectArchitecture](./multipleContainers/projectArchitecture.png)
+Visits Application Architecture
+![projectArchitecture](./visits/img-projectArchitecture.png)
