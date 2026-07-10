@@ -37,6 +37,9 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 - Inspecting and Accessing a Running Container
   ![build logs](./simple-web/img-shell.png)
 
+- Create new database
+  ![CreateDB](/simple-web/img-createDB.png)
+
 ### Docker Compose with Multiple Local Containers
 
 ![projectArchitecture](./multipleContainers/projectArchitecture.png)
