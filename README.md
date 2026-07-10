@@ -44,3 +44,8 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 
 Visits Application Architecture
 ![projectArchitecture](./visits/img-projectArchitecture.png)
+<br />
+
+Setup
+![allContainersRunning](./visits/img-allContainerRunning.png)
+![browser](./visits/img-browser.png)
