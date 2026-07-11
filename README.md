@@ -93,7 +93,22 @@ Docker Restart Policies
 
 ![workflow](./flow/img-workflow.png)
 ![workflowDetails](./flow/img-workflowDetails.png)
+
+<br/>
+
+#### Dev Enviroment
+
 ![successfulDevBuild](./flow/img-successfulDevBuild.png)
 ![successfulDevStartup](./flow/img-successfulDevStartup.png)
 ![SetupVolumn](./flow/img-setupVolumn.png)
 ![SuccessfulVolumnMount](./flow/img-successfulVolumnMount.png)
+
+<br/>
+
+#### Test Enviroment
+
+Live Updating Solution 1
+![liveUpdatingTests](./flow/img-liveUpdatingTests.png)
+
+Live Updating Solution 2
+![testContainerAndProcesses](./flow/img-testContainerAndProcesses.png)
