@@ -112,3 +112,7 @@ Live Updating Solution 1
 
 Live Updating Solution 2
 ![testContainerAndProcesses](./flow/img-testContainerAndProcesses.png)
+
+#### Prod Environment
+
+![multistepBuild](./flow/img-multistepBuild.png)
