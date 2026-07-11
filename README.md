@@ -88,3 +88,10 @@ Docker Restart Policies
 | `always`         | Always attempt to restart the container whenever it stops, regardless of the reason.                                |
 | `on-failure`     | Restart the container only if it exits with a non-zero (error) status code.                                         |
 | `unless-stopped` | Always restart the container unless it was explicitly stopped by the user (`docker stop` or `docker-compose down`). |
+
+### Flow
+
+Objective: Production Grade Workflow Application
+
+![workflow](./flow/img-workflow.png)
+![workflowDetails](./flow/img-workflowDetails.png)
