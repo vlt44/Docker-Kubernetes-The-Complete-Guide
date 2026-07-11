@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t vltaylor/Docker-Kubernetes-The-Complete-Guide -f Dockerfile.dev .
