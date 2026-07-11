@@ -25,7 +25,7 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 
 ## Projects
 
-### Simple web
+### Simple Web Application
 
 - Docker Port Forwarding
 
@@ -40,6 +40,8 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 - Create new database
   ![CreateDB](/simple-web/img-createDB.png)
 
+<br />
+
 ### Visits Application
 
 Objectives: Docker Compose with Multiple Local Containers
@@ -49,11 +51,9 @@ Objectives: Docker Compose with Multiple Local Containers
 - docker cli
 - docker compose
 
-Visits Application Architecture
-![projectArchitecture](./visits/img-projectArchitecture.png)
 <br />
 
-Setup
+![projectArchitecture](./visits/img-projectArchitecture.png)
 ![allContainersRunning](./visits/img-allContainerRunning.png)
 ![browser](./visits/img-browser.png)
 
@@ -71,7 +71,6 @@ Stop Containers
 docker-compose down
 ```
 
-<br/>
 Container Exit Status Codes
 
 | Status Code    | Meaning                                     |
@@ -79,7 +78,6 @@ Container Exit Status Codes
 | `0`            | Container exited successfully.              |
 | `1, 2, 3, ...` | Container exited because an error occurred. |
 
-<br/>
 Docker Restart Policies
 
 | Policy           | Description                                                                                                         |
@@ -89,9 +87,9 @@ Docker Restart Policies
 | `on-failure`     | Restart the container only if it exits with a non-zero (error) status code.                                         |
 | `unless-stopped` | Always restart the container unless it was explicitly stopped by the user (`docker stop` or `docker-compose down`). |
 
-### Flow
+<br/>
 
-Objective: Production Grade Workflow Application
+### Production Grade Workflow Application
 
 ![workflow](./flow/img-workflow.png)
 ![workflowDetails](./flow/img-workflowDetails.png)
