@@ -116,5 +116,3 @@ Live Updating Solution 2
 #### Prod Environment
 
 ![multistepBuild](./flow/img-multistepBuild.png)
-
-**testing**
