@@ -40,7 +40,14 @@ The course covers containerization, orchestration, CI/CD pipelines, cloud deploy
 - Create new database
   ![CreateDB](/simple-web/img-createDB.png)
 
-### Docker Compose with Multiple Local Containers
+### Visits Application
+
+Objectives: Docker Compose with Multiple Local Containers
+
+- docker containers
+- images
+- docker cli
+- docker compose
 
 Visits Application Architecture
 ![projectArchitecture](./visits/img-projectArchitecture.png)
@@ -49,3 +56,35 @@ Visits Application Architecture
 Setup
 ![allContainersRunning](./visits/img-allContainerRunning.png)
 ![browser](./visits/img-browser.png)
+
+#### Docker Compose
+
+Launch Containers in Background
+
+```bash
+docker-compose up -d
+```
+
+Stop Containers
+
+```bash
+docker-compose down
+```
+
+<br/>
+Container Exit Status Codes
+
+| Status Code    | Meaning                                     |
+| -------------- | ------------------------------------------- |
+| `0`            | Container exited successfully.              |
+| `1, 2, 3, ...` | Container exited because an error occurred. |
+
+<br/>
+Docker Restart Policies
+
+| Policy           | Description                                                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `no`             | Never restart the container if it stops or crashes. _(Default)_                                                     |
+| `always`         | Always attempt to restart the container whenever it stops, regardless of the reason.                                |
+| `on-failure`     | Restart the container only if it exits with a non-zero (error) status code.                                         |
+| `unless-stopped` | Always restart the container unless it was explicitly stopped by the user (`docker stop` or `docker-compose down`). |
