@@ -119,3 +119,18 @@ Successfully ran test in Travis CI, Application ready for deployment of hosting 
 #### Prod Environment
 
 ![multistepBuild](./flow/img-multistepBuild.png)
+
+Tasks:
+
+- Configure and deploy applications with AWS Elastic Beanstalk
+- Understand Elastic Beanstalk environments and deployment workflows
+- Configure Travis CI for continuous integration and deployment
+- Set up AWS IAM users, access keys, and deployment permissions
+- Automate deployments from GitHub to AWS
+- Configure Docker for production deployments
+- Expose application ports correctly with Dockerfiles
+- Trigger automatic deployments after pull request merges
+- Follow CI/CD best practices for Dockerized applications
+- Clean up AWS resources to avoid unnecessary costs
+- Reference an AWS configuration cheat sheet for common setup tasks
+- Review the completed project with all deployment updates applied
