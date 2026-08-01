@@ -113,6 +113,9 @@ Live Updating Solution 1
 Live Updating Solution 2
 ![testContainerAndProcesses](./flow/img-testContainerAndProcesses.png)
 
+Successfully ran test in Travis CI, Application ready for deployment of hosting provider
+![testContainerAndProcesses](./flow/img-successfulTestTravis.png)
+
 #### Prod Environment
 
 ![multistepBuild](./flow/img-multistepBuild.png)
