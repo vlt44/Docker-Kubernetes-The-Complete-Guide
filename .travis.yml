@@ -4,3 +4,6 @@ services:
 
 before_install:
   - docker build -t vltaylor/Docker-Kubernetes-The-Complete-Guide -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true vltaylor/Docker-Kubernetes-The-Complete-Guide npm run test -- --coverage
